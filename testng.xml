@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TimesMed Automation">
+		<parameter name="deviceName" value="Moto G30" />
+		<parameter name="udid" value="ZF65265DMD" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="12" />
+		<parameter name="appPackage" value="com.finservtech.timesmedlite.doctor" />
+		<parameter name="appActivity" value="com.finservtech.timesmedlite.MainActivity" />
+    <test name="Timesmed-LoginFlow">
+		<classes>
+			<class name="com.timesmed.testcases.LoginTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
